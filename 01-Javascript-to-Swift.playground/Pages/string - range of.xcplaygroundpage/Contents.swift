@@ -21,10 +21,10 @@ func find(_ str: String, _ sub: String) {
   if let range = str.range(of: sub) {
     let istart: Int = str.distance(from: str.startIndex, to: range.lowerBound)
     let iend: Int = str.distance(from: str.startIndex, to: range.upperBound)
-    print(sub, "istart", istart, "iend", iend)
+    print("find sub", sub, "istart", istart, "iend", iend)
   }
   else {
-    print(sub, "substring not found in", str)
+    print("find sub", sub, "substring not found in str", str)
   }
 }
 

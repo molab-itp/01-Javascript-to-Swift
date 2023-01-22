@@ -25,9 +25,9 @@ import Foundation
 //
 let nstr:NSString = "Mozilla"
 let nsub = nstr.substring(from: 2)
-print("nsub", nsub)
+print("NSString nsub", nsub)
 let rsub = nstr.substring(with: NSMakeRange(2, 3))
-print("rsub", rsub)
+print("NSString rsub", rsub)
 
 
 // !!@ Alert: To use substring with String we need to use string index method
