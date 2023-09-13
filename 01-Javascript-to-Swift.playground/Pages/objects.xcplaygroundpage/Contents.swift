@@ -26,7 +26,7 @@ print("point1 \(point1)")
 point1["x"] = 10
 print("point1 \(point1)")
 
-// ERRRO! can use non-string access
+// ERROR! can not use non-string access
 // print("point1.x", point1.x)
 
 // ERROR! type of x inferred to be Int

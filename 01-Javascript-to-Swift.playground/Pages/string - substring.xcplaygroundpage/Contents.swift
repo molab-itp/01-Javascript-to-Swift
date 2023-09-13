@@ -12,23 +12,6 @@ import Foundation
 //  let anyString4 = anyString.substring(anyString.length - 4)
 //  console.log(anyString4)
 
-// Searching Apple documentation for swift string substring
-// https://developer.apple.com/documentation/swift/string
-// this looks close
-// https://developer.apple.com/documentation/swift/string/2943910-subscript
-// !!@ Warning: Documentation is showing subscript with Arrays not Strings
-// !!@ No direct equivalent for javascript substring on swift strings
-
-// Searching Apple documentation also show this
-// https://developer.apple.com/documentation/foundation/nsstring/1408017-substring
-// !!@ Warning: this is for NSString, not plain swift String
-//
-let nstr:NSString = "Mozilla"
-let nsub = nstr.substring(from: 2)
-print("NSString nsub", nsub)
-let rsub = nstr.substring(with: NSMakeRange(2, 3))
-print("NSString rsub", rsub)
-
 
 // !!@ Alert: To use substring with String we need to use string index method
 // every different from javascript
@@ -47,5 +30,24 @@ let start3 = str.index(str.startIndex, offsetBy: 2)
 let end3 = str.index(str.startIndex, offsetBy: 4)
 let str3 = str[start3...end3]
 print("str3 \(str3)")
+
+// Searching Apple documentation for swift string substring
+// https://developer.apple.com/documentation/swift/string
+// this looks close
+// https://developer.apple.com/documentation/swift/string/2943910-subscript
+// !!@ Warning: Documentation is showing subscript with Arrays not Strings
+// !!@ No direct equivalent for javascript substring on swift strings
+
+// Searching Apple documentation also show this
+// https://developer.apple.com/documentation/foundation/nsstring/1408017-substring
+// !!@ Warning: this is for NSString, not plain swift String
+//
+let nstr:NSString = "Mozilla"
+let nsub = nstr.substring(from: 2)
+print("NSString nsub", nsub)
+let rsub = nstr.substring(with: NSMakeRange(2, 3))
+print("NSString rsub", rsub)
+
+
 
 //: [Previous](@previous)  [Next](@next)
