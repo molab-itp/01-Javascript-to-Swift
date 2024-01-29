@@ -2,12 +2,12 @@
 <playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='ReadMe'/>
-        <page name='Javascript to Swift'/>
         <page name='string - console.log'/>
         <page name='string - indexing'/>
         <page name='string - substring'/>
         <page name='string - split'/>
         <page name='string - range of'/>
         <page name='objects'/>
+        <page name='dictionary'/>
     </pages>
 </playground>
