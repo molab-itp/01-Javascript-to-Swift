@@ -36,6 +36,10 @@ print("point1 \(point1)")
 dict["x"] = 9.0
 print("dict \(dict)")
 
+// type of x is Any?
+let x = dict["x"];
+print("x", x!);
+
 // https://docs.swift.org/swift-book/ReferenceManual/Expressions.html#grammar_tuple-expression
 // tuples for fixed size collections
 //

@@ -8,3 +8,5 @@
 // variables: let / var
 // loops: for / while
 // values: strings / numbers / arrays
+
+// 2024-01-28
