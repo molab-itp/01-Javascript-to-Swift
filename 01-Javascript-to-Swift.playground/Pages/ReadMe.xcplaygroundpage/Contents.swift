@@ -9,6 +9,7 @@
 // loops: for / while
 // values: strings / numbers / arrays
 
+// 2024-01-29 .gitignore
 // 2024-01-28 update test. and another update.
 
 
