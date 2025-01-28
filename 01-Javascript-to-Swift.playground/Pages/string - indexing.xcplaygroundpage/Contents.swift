@@ -15,7 +15,7 @@ print("str startIndex", str[str.startIndex])
 print("str offsetBy 3",str[str.index(str.startIndex, offsetBy: 3)])
 print("str offsetBy 5",str[str.index(str.startIndex, offsetBy: 5)])
 
-// Unicode is same, dispite longer longer encoding, same string is twice as long in javascript
+// Unicode is same, dispite longer encoding, same string is twice as long in javascript
 
 let ustr = "🐥🐣🐂🐄🐎🐖🐏🐑"
 print("ustr", ustr)
